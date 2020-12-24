@@ -7,5 +7,6 @@ namespace LeetCode
     class Program
     {
         //
+        //
     }
 }
