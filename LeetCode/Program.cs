@@ -8,8 +8,8 @@ namespace LeetCode
     {
         static void Main(string[] Args)
         {
-            Candy_135 candy = new Candy_135();
-            Console.WriteLine(candy.Candy(new int[] { 1, 3, 4, 5, 2 }));
+            MinCut_132 m = new MinCut_132();
+            Console.WriteLine(m.MinCut("cdd"));
         }            
     }
 }
