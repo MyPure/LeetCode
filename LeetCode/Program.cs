@@ -8,8 +8,8 @@ namespace LeetCode
     {
         static void Main(string[] Args)
         {
-            MinCut_132 m = new MinCut_132();
-            Console.WriteLine(m.MinCut("cdd"));
+            RemoveDuplicates_1047 m = new RemoveDuplicates_1047();
+            Console.WriteLine(m.RemoveDuplicates("daabbc"));
         }            
     }
 }
