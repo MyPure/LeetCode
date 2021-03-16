@@ -8,8 +8,17 @@ namespace LeetCode
     {
         static void Main(string[] Args)
         {
-            RemoveDuplicates_1047 m = new RemoveDuplicates_1047();
-            Console.WriteLine(m.RemoveDuplicates("daabbc"));
-        }            
+            SpiralOrder_54 s = new SpiralOrder_54();
+            int[][] m = new int[][]
+            {
+                new int[]{1,2,3},
+                new int[]{4,5,6},
+                new int[]{7,8,9}
+            };
+            foreach (int i in s.SpiralOrder(m))
+            {
+                Console.Write(i + " ");
+            }
+        }
     }
 }

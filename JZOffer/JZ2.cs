@@ -4,7 +4,7 @@ using System.Text;
 
 namespace JZOffer
 {
-    class ReplaceSpace_2
+    class JZ2
     {
         public string replaceSpace(string s)
         {

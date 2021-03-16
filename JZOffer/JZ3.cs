@@ -4,7 +4,7 @@ using System.Text;
 
 namespace JZOffer
 {
-    class PrintListFromTailToHead_3
+    class JZ3
     {
 
         // 返回从尾到头的列表值序列
@@ -19,15 +19,6 @@ namespace JZOffer
             List<int> result = new List<int>(s.ToArray());
             result.Reverse();
             return result;
-        }
-    }
-    class ListNode
-    {
-        public int val;
-        public ListNode next;
-        public ListNode(int x)
-        {
-            val = x;
         }
     }
 }
